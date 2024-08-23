@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0066cc; /* Medium blue background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #query {
+    width: 60%;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6600; /* Button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cc5200; /* Darker button color on hover */
+  }
+  
+  .results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+  }
+  
+  .video p {
+    margin: 5px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004080; /* Dark blue background for footer */
+  }
+  
+  footer a {
+    color: #ffcc00; /* Link color */
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
